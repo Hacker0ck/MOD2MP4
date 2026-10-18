@@ -40,6 +40,22 @@ MOD2MP4 no utiliza instalador:
 
 `portable.mode` hace que el idioma y la plantilla de nombres se guarden en la carpeta local `config`, para que las preferencias viajen con el programa.
 
+### Primer arranque: aviso de Windows SmartScreen
+
+MOD2MP4 todavía no está firmado digitalmente. Por eso Windows puede mostrar el aviso **Windows protegió su PC** aunque Microsoft Defender no haya detectado amenazas en el paquete publicado. Este aviso, por sí solo, no es una detección de malware.
+
+Continúa únicamente si descargaste el ZIP desde la [publicación oficial](https://github.com/Hacker0ck/MOD2MP4/releases/tag/v1.4.1) y la suma SHA-256 coincide con la publicada:
+
+1. Pulsa **Más información**.
+
+   ![Aviso inicial de Windows SmartScreen para MOD2MP4](docs/images/es/smartscreen-warning-es.png)
+
+2. Comprueba que la aplicación indicada es `MOD2MP4-v1.4.1.exe` y pulsa **Ejecutar de todas formas**.
+
+   ![Opción Ejecutar de todas formas de Windows SmartScreen](docs/images/es/smartscreen-run-anyway-es.png)
+
+No continúes si el archivo procede de otra página o su SHA-256 no coincide.
+
 ### Guía visual
 
 **1. Añade los vídeos y comprueba la información detectada.** Puedes arrastrar archivos MOD o carpetas completas directamente a la ventana.
@@ -128,6 +144,22 @@ MOD2MP4 does not use an installer:
 5. Open `MOD2MP4-v1.4.1.exe`.
 
 `portable.mode` tells MOD2MP4 to store its language and naming-template preferences in the local `config` folder, so the settings travel with the application.
+
+### First launch: Windows SmartScreen warning
+
+MOD2MP4 is not digitally signed yet. Windows may therefore display **Windows protected your PC** even though Microsoft Defender found no threats in the published package. This warning is not, by itself, a malware detection.
+
+Continue only if you downloaded the ZIP from the [official release](https://github.com/Hacker0ck/MOD2MP4/releases/tag/v1.4.1) and its SHA-256 matches the published value:
+
+1. Click **More info** (*Más información* on Spanish Windows).
+
+   ![Initial Windows SmartScreen warning for MOD2MP4](docs/images/es/smartscreen-warning-es.png)
+
+2. Check that the listed application is `MOD2MP4-v1.4.1.exe`, then click **Run anyway** (*Ejecutar de todas formas*).
+
+   ![Windows SmartScreen Run anyway option](docs/images/es/smartscreen-run-anyway-es.png)
+
+Do not continue if the file came from another website or its SHA-256 does not match.
 
 ### Visual guide
 
