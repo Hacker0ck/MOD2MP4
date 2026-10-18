@@ -4,8 +4,8 @@ Portable video converter for JVC Everio `.MOD` recordings. Converts legacy SD PA
 
 [Español](#español) · [English](#english)
 
-> [!NOTE]
-> This repository currently contains documentation only. The portable application will be published in [GitHub Releases](https://github.com/Hacker0ck/MOD2MP4/releases) when the first public package is ready.
+> [!IMPORTANT]
+> **MOD2MP4 v1.4.1 Public Beta is available in [GitHub Releases](https://github.com/Hacker0ck/MOD2MP4/releases/tag/v1.4.1).** It is an unsigned 64-bit Windows application; Windows SmartScreen may display a warning. Verify the published SHA-256 before running it.
 
 ## Español
 
@@ -26,14 +26,14 @@ MOD2MP4 es una aplicación portable para Windows que convierte grabaciones JVC E
 - El paquete ZIP portable completo.
 - Grabaciones JVC Everio SD PAL en formato MOD/MOI, normalmente MPEG-2 PS, Dolby Digital y 720×576/25i.
 
-El paquete portable incluye **FFmpeg 9.0.2 Essentials**. No es necesario instalar FFmpeg ni añadirlo a las variables de Windows.
+El paquete portable incluye **FFmpeg 9.0.2 MOD2MP4**. No es necesario instalar FFmpeg ni añadirlo a las variables de Windows.
 
 ### Descarga y puesta en marcha
 
 MOD2MP4 no utiliza instalador:
 
 1. Abre la sección [Releases](https://github.com/Hacker0ck/MOD2MP4/releases).
-2. Descarga `MOD2MP4-v1.4.1-portable.zip` cuando esté disponible.
+2. Descarga `MOD2MP4-v1.4.1-public-beta.zip`.
 3. Descomprime el ZIP completo en una carpeta. No ejecutes el programa desde dentro del ZIP.
 4. Mantén juntos `MOD2MP4-v1.4.1.exe`, `ffmpeg.exe` y `portable.mode`.
 5. Abre `MOD2MP4-v1.4.1.exe`.
@@ -80,7 +80,7 @@ La conversión puede tardar porque el ajuste recomendado prioriza la calidad sob
 
 ### Compatibilidad actual
 
-La versión 1.4.1 está pensada para grabaciones JVC Everio SD PAL en archivos MOD/MOI. Todavía no están certificados:
+La versión 1.4.1 está pensada para grabaciones JVC Everio SD PAL en archivos MOD/MOI. Se ha probado con un clip real JVC Everio MOD+MOI PAL 720×576/25i y con muestras sintéticas 16:9/4:3 en H.264 y H.265. Todavía no están certificados:
 
 - JVC `.TOD`.
 - AVCHD y MiniDV.
@@ -92,7 +92,7 @@ La versión 1.4.1 está pensada para grabaciones JVC Everio SD PAL en archivos M
 
 La aplicación incluye una guía ilustrada en español e inglés desde **Ayuda > Guía de funcionamiento**. Para compartir MOD2MP4, distribuye siempre el ZIP portable completo, no solo el ejecutable.
 
-El paquete incluye los avisos de terceros, la licencia GPL v3 y la información de la compilación de FFmpeg en `Licencias-Licenses`.
+El paquete incluye los avisos de terceros, la licencia GPL v3, las fuentes correspondientes y la receta de compilación de FFmpeg. Las aportaciones son voluntarias y no desbloquean funciones: [apoyar MOD2MP4 en Ko-fi](https://ko-fi.com/hackerock).
 
 ---
 
@@ -115,14 +115,14 @@ MOD2MP4 is a portable Windows application that converts JVC Everio SD PAL `.MOD`
 - The complete portable ZIP package.
 - JVC Everio SD PAL MOD/MOI recordings, normally MPEG-2 PS with Dolby Digital audio at 720×576/25i.
 
-The portable package includes **FFmpeg 9.0.2 Essentials**. FFmpeg does not need to be installed or added to the Windows environment variables.
+The portable package includes **FFmpeg 9.0.2 MOD2MP4**. FFmpeg does not need to be installed or added to the Windows environment variables.
 
 ### Download and setup
 
 MOD2MP4 does not use an installer:
 
 1. Open the [Releases](https://github.com/Hacker0ck/MOD2MP4/releases) section.
-2. Download `MOD2MP4-v1.4.1-portable.zip` when it becomes available.
+2. Download `MOD2MP4-v1.4.1-public-beta.zip`.
 3. Extract the complete ZIP archive to a folder. Do not run the application from inside the ZIP.
 4. Keep `MOD2MP4-v1.4.1.exe`, `ffmpeg.exe` and `portable.mode` together.
 5. Open `MOD2MP4-v1.4.1.exe`.
@@ -169,7 +169,7 @@ Conversion can take some time because the recommended preset prioritises quality
 
 ### Current compatibility
 
-Version 1.4.1 is intended for JVC Everio SD PAL MOD/MOI recordings. The following formats are not currently certified:
+Version 1.4.1 is intended for JVC Everio SD PAL MOD/MOI recordings. It has been tested with one real JVC Everio PAL 720×576/25i MOD+MOI clip and synthetic 16:9/4:3 H.264 and H.265 samples. The following formats are not currently certified:
 
 - JVC `.TOD`.
 - AVCHD and MiniDV.
@@ -181,4 +181,4 @@ Version 1.4.1 is intended for JVC Everio SD PAL MOD/MOI recordings. The followin
 
 The application includes an illustrated Spanish and English guide under **Help > User guide**. To share MOD2MP4, always distribute the complete portable ZIP package, not only the executable.
 
-The package includes third-party notices, the GPL v3 licence and FFmpeg build information in `Licencias-Licenses`.
+The package includes third-party notices, the GPL v3 licence, corresponding sources, and the FFmpeg build recipe. Contributions are voluntary and do not unlock features: [support MOD2MP4 on Ko-fi](https://ko-fi.com/hackerock).
