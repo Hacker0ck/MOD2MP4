@@ -40,6 +40,18 @@ MOD2MP4 no utiliza instalador:
 
 `portable.mode` hace que el idioma y la plantilla de nombres se guarden en la carpeta local `config`, para que las preferencias viajen con el programa.
 
+### Guía visual
+
+**1. Añade los vídeos y comprueba la información detectada.** Puedes arrastrar archivos MOD o carpetas completas directamente a la ventana.
+
+![Ventana principal de MOD2MP4 con un vídeo preparado para convertir](docs/images/es/main.png)
+
+| **2. Revisa las opciones de imagen, desentrelazado, vídeo y audio.** | **3. Comprueba o personaliza el nombre de los MP4.** |
+| --- | --- |
+| ![Opciones recomendadas de origen y salida](docs/images/es/options.png) | ![Plantilla para el nombre del archivo de salida](docs/images/es/template.png) |
+
+**4. Pulsa Convertir.** Los MP4 aparecerán en `JVC_converted` o en la carpeta de salida que hayas elegido. Los originales permanecen intactos.
+
 ### Uso rápido
 
 1. Arrastra archivos `.MOD` o carpetas a la ventana, o utiliza los botones para añadirlos.
@@ -116,6 +128,18 @@ MOD2MP4 does not use an installer:
 5. Open `MOD2MP4-v1.4.1.exe`.
 
 `portable.mode` tells MOD2MP4 to store its language and naming-template preferences in the local `config` folder, so the settings travel with the application.
+
+### Visual guide
+
+**1. Add the videos and check the detected information.** You can drag MOD files or complete folders directly onto the window.
+
+![MOD2MP4 main window with a video ready for conversion](docs/images/en/main.png)
+
+| **2. Review the picture, deinterlacing, video and audio options.** | **3. Check or customise the MP4 file names.** |
+| --- | --- |
+| ![Recommended input and output options](docs/images/en/options.png) | ![Output file naming template](docs/images/en/template.png) |
+
+**4. Click Convert.** The MP4 files will appear in `JVC_converted` or in the output folder you selected. The originals remain untouched.
 
 ### Quick start
 
